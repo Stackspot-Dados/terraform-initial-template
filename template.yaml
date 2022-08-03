@@ -1,0 +1,9 @@
+name: terraform
+description: Template para você iniciar a prover sua infraestrutura com código através do Terraform
+types:
+  - env-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
