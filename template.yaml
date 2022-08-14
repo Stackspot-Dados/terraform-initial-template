@@ -3,7 +3,11 @@ description: Template para você iniciar a prover sua infraestrutura com código
 types:
   - env-template
 inputs:
-  - label: Project name
-    type: text
-    name: project_name
-    default: project-name
+    - label: Provider version
+      type: text
+      name: provider_version
+      default: "2.0"
+    - label: Provider region
+      type: text
+      name: provider_region
+      default: "us-east-1"
